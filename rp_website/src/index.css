@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #111113;
+  background-color: #0b0b0c;
 }
 
 * {
@@ -13,10 +13,16 @@
 }
 
 .bg-home {
-  background-image: url(./assets/home_bgg.png);
+  background-image: url(./assets/test.png);
   background-repeat: no-repeat;
-  width: max-width;
-  
+  background-position: center;
+  background-size: cover;
+  width: 100vw;  
+
+}
+.bg-text{
+  background-image: url(./assets/logo_text.png);
+  background-repeat: no-repeat;
 }
 
 .sidebar {
