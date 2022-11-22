@@ -22,3 +22,15 @@ export const navLinks = [
     title: "Kontakt",
   },
 ];
+
+export const conLinks = [
+  {
+    id: "mail",
+    title: "E-mail info@detailersgarage.eu",
+
+  },
+  {
+    id: "tel",
+    title: "Telefon +420 123 123 123"
+  }
+];

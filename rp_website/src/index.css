@@ -7,20 +7,18 @@
 :root {
   background-color: #0b0b0c;
 }
-
-* {
-  scroll-behavior: smooth;
-}
-
 .bg-home {
-  background-image: url(./assets/test.png);
+  background-image: url(./assets/homeBg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;  
-
+  width: 100vw;
 }
-.bg-text{
+.smbg-home {
+  background-color: #0b0b0c;
+}
+
+.bg-text {
   background-image: url(./assets/logo_text.png);
   background-repeat: no-repeat;
 }

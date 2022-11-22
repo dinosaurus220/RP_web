@@ -3,6 +3,7 @@ import Home from "./Home";
 import Services from "./Services";
 import Footer from "./Footer";
 import Feedback from "./Feedback";
+import Header from "./Header";
 
 
 export{ 
@@ -10,6 +11,7 @@ export{
     Home,
     Services,
     Footer,
-    Feedback
+    Feedback,
+    Header
    
 };

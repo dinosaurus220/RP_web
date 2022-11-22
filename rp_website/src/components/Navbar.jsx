@@ -1,12 +1,22 @@
 import { useState } from "react";
-
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if(window.scrollY >= 90){
+      setColor(true);
+    }else{
+      setColor(false);
+    }
+  }
+  window.addEventListener('scroll', changeColor);
+
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+
+    <nav className={`fixed w-full flex py-5 pl-16 justify-between items-center ${color ? 'bg-[#0b0b0c] transition ease-in delay-100' : 'bg-transparent'}`}>
       <img src={logo} alt="Detailer's Garage" className="w-[200px] h[60px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
