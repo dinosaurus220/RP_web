@@ -15,6 +15,7 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+    img: "relative -z-10 h-[120px] flex mx-auto justify-center my-5 xl:px-0 sm:px-16 px-6 center"
   };
   
   export const layout = {

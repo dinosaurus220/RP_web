@@ -1,19 +1,22 @@
 import styles from "../style";
 import { servicelogo } from "../assets";
 
+
+
+
 const Services = () => {
   return (
-    <div>
-      <img src={servicelogo} className="flex-1 flex-col xl:px-0 sm:px-16 px-6 center" />
-      <div
-        id="sluzby"
-        className="max-w-screen-xl p-4 bg-white dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20"
-      >
-        
+    <div id="sluzby">
+      <img
+        src={servicelogo}
+        className={styles.img}
+      />
+
+      <div className="max-w-screen-xl rounded-lg p-4 bg-white dark:bg-[#171718] mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-5 -z-20">
         <div className="relative">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
-              <p className="text-base leading-6 text-indigo-500 font-semibold uppercase">
+              <p className="text-base leading-6 text-[#3c479e] font-semibold uppercase">
                 Interiér
               </p>
               <h4 className="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
@@ -103,7 +106,7 @@ const Services = () => {
                       </svg>
                     </span>
                     <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                     Tipy na udržení kvality interiéru
+                      Tipy na udržení kvality interiéru
                     </span>
                   </div>
                 </li>

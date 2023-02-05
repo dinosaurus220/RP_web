@@ -1,5 +1,6 @@
 {
   "name": "rp_website",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "autoprefixer": "^10.4.13",
+    "cors": "^2.8.5",
+    "emailjs": "^4.0.1",
+    "express": "^4.18.2",
+    "google-maps-reviews": "^0.3.0",
+    "nodemailer": "^6.9.0",
     "postcss": "^8.4.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-elfsight-widget": "^1.0.3",
+    "react-router-dom": "^6.7.0",
     "react-scroll": "^1.8.8",
     "tailwindcss": "^3.2.1"
   },

@@ -7,6 +7,8 @@ import mail from './header/mail.png';
 import phone from './header/phone.png';
 import service_ba from './service_ba.jpg';
 import servicelogo from './service.png';
+import contactlogo from './contact.png';
+import reviewslogo from './reviews.png';
 
 
 export{
@@ -18,5 +20,7 @@ export{
     mail,
     service_ba,
     phone,
-    servicelogo
+    servicelogo,
+    contactlogo,
+    reviewslogo
 }

@@ -10,8 +10,8 @@ export const navLinks = [
     title: "Služby",
   },
   {
-    id: "nasePrace",
-    title: "Naše Práce",
+    id: "recenze",
+    title: "Recenze",
   },
   {
     id: "oNas",
