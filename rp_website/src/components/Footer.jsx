@@ -3,14 +3,22 @@ import styles from "../style";
 
 const Footer = () => {
   return (
-    <footer className="text-white">
+    <footer className="text-[#3c479e]">
       <div
-        className="grid grid-cols-4 grid-flow-col gap-4
+        className="grid grid-rows-3 grid-cols-4 grid-flow-col gap-4
     text-center py-5 text-gray-400 text-sm"
       >
-        <span>Kontakt</span>
-        <span>Navigace</span>
-        <span>Užitečné odkazy</span>
+        <span className="text-[#3c479e] text-[20px]">Kontakt</span>
+
+        <p>info@detailersgarage.eu</p>
+        <p>+420 111 222 333</p>
+
+        <span className="text-[#3c479e] text-[20px]">Navigace</span>
+        <p>Nazev</p>
+        <p>Nazev</p>
+        <span className="text-[#3c479e] text-[20px]">Užitečné odkazy</span>
+        <p>Nazev</p>
+        <p>Nazev</p>
 
         <span className="inline-flex">
           <a className="text-gray-500">
@@ -65,7 +73,7 @@ const Footer = () => {
           </a>
         </span>
       </div>
-      <div className="text-center border-t pt-4 text-gray-400 text-sm pb-4">
+      <div className="text-center pt-4 text-gray-400 text-sm pb-4">
         <span>© 2023 Detailer's Garage. All rights reserved.</span>
       </div>
     </footer>

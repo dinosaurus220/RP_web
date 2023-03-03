@@ -9,6 +9,8 @@ import service_ba from './service_ba.jpg';
 import servicelogo from './service.png';
 import contactlogo from './contact.png';
 import reviewslogo from './reviews.png';
+import exterior from './services/exterior_b-a.jpg';
+import interior from './services/interior_b-a.jpg';
 
 
 export{
@@ -22,5 +24,7 @@ export{
     phone,
     servicelogo,
     contactlogo,
-    reviewslogo
+    reviewslogo,
+    exterior,
+    interior
 }
