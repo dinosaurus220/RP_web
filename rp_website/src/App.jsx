@@ -1,7 +1,7 @@
 import styles from "./style";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
+import { products } from "./assets";
 import {
   Navbar,
   Services,
@@ -9,9 +9,10 @@ import {
   Footer,
   Reviews,
   Contact,
+  Products,
 } from "./components";
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCkdGq0U3OXQr04onKeTgSP4m8VMfUn5R8"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCkdGq0U3OXQr04onKeTgSP4m8VMfUn5R8"></script>;
 
 const App = () => {
   return (
@@ -31,9 +32,6 @@ const App = () => {
               <Home />
             </div>
           </div>
-          <Routes>
-           <Route path="/" exact component={() => <Home />} />
-          </Routes>
         </div>
       </div>
 
@@ -42,21 +40,12 @@ const App = () => {
       >
         <div className={`${styles.boxWidth}`}>
           <Services />
-          <Routes>
-            {" "}
-            <Route path="/services" exact component={() => <Services />} />
-          </Routes>
-          <div id="google-reviews">
+          <img src={products} className="relative -z-10 h-[145px] flex mx-auto justify-center my-5 xl:px-0 sm:px-16 px-6 center" />
 
-            
-          </div>
+          <Products />
+          <div id="google-reviews"></div>
           <Reviews />
-          
-          <Contact/>  
-          <Routes>
-            {" "}
-            <Route path="/kontakt" exact component={() => <Contact />} />
-          </Routes>
+          <Contact />
         </div>
       </div>
 

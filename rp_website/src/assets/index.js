@@ -11,11 +11,11 @@ import contactlogo from './contact.png';
 import reviewslogo from './reviews.png';
 import exterior from './services/exterior_b-a.jpg';
 import interior from './services/interior_b-a.jpg';
+import products from "./products.png";
 
-
-export{
-    close, 
-    home, 
+export {
+    close,
+    home,
     logo,
     bg_logo,
     menu,
@@ -26,5 +26,6 @@ export{
     contactlogo,
     reviewslogo,
     exterior,
-    interior
+    interior,
+    products,
 }

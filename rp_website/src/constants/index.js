@@ -13,10 +13,7 @@ export const navLinks = [
     id: "recenze",
     title: "Recenze",
   },
-  {
-    id: "oNas",
-    title: "O Nás",
-  },
+
   {
     id: "kontakt",
     title: "Kontakt",

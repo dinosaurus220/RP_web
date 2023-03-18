@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Reviews from "./Reviews";
 import Header from "./Header";
 import Contact from "./Contact";
+import Products from "./Products";
 
 
 export{ 
@@ -14,6 +15,7 @@ export{
     Footer,
     Reviews,
     Header,
-    Contact
+    Contact,
+    Products
    
 };

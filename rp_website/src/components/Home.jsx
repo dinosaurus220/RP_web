@@ -3,7 +3,7 @@ import styles from "../style";
 import { bg_logo } from "../assets";
 const Home = () => (
   <section
-    to="/"
+    to="/" id="domu"
     className={`static  flex md:flex-row flex-col ${styles.paddingY}`}
   >
     <div
