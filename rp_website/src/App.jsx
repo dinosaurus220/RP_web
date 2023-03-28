@@ -28,7 +28,7 @@ const App = () => {
           <div
             className={`pt-10 w-full overflow-hidden align-center ${styles.flexStart}`}
           >
-            <div className={`h-screen ${styles.boxWidth}`}>
+            <div className={`h-screen ${styles.boxWidth} `}>
               <Home />
             </div>
           </div>

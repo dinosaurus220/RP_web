@@ -79,7 +79,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`mx-[150px] pt-8 font-mono font-normal cursor-pointer text-[30px] ${
+                className={`mx-[150px] pt-8 cursor-pointer text-[30px] ${
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 } text-white`}
               >
