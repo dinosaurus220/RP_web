@@ -34,7 +34,7 @@ function Contact() {
     );
   }
   return (
-    <form ref={form} onSubmit={sendEmail} id="kontakt">
+    <form ref={form} onSubmit={sendEmail} id="kontakt" className="pt-16">
       <img src={contactlogo} className={styles.img}></img>
       <div>
         <section className="text-gray-700 body-font relative">

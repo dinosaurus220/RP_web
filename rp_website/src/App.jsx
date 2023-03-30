@@ -17,10 +17,10 @@ import {
 const App = () => {
   return (
     <Router>
-      <div className="w-full overflow-hidden align-center">
+      <div className="w-full overflow-hidden align-center scroll-mt-[60px]">
         <div className="bg-home ">
           <div>
-            <div className={`${styles.boxWidth} z-10`}>
+            <div className={`${styles.boxWidth} z-20`}>
               <Navbar />
             </div>
           </div>
@@ -44,7 +44,7 @@ const App = () => {
 
           <Products />
           <div id="google-reviews"></div>
-          <Reviews />
+          <Reviews className="-z-50"/>
           <Contact />
         </div>
       </div>
