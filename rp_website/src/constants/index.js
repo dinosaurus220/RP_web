@@ -10,6 +10,10 @@ export const navLinks = [
     title: "Služby",
   },
   {
+    id: "produkty",
+    title: "Produkty",
+  },
+  {
     id: "recenze",
     title: "Recenze",
   },

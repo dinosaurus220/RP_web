@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full flex py-5 pl-16 justify-between items-center ${
-        color ? "bg-[#0b0b0c] transition ease-in delay-100" : "bg-transparent"
+      className={`z-50 fixed w-full flex py-5 pl-16 justify-between items-center ${
+        color ? "bg-[#171718] transition ease-in delay-100" : "bg-transparent"
       }`}
     >
       <img

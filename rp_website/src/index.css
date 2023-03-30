@@ -49,3 +49,9 @@
     transform: translateY(0);
   }
 }
+
+#footer a:hover, #footer p:hover{
+  color: white;
+  font-size: 15px;
+  transition: font-size 0.3s linear;
+}
