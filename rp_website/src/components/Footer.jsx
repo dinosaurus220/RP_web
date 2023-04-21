@@ -5,48 +5,30 @@ const Footer = () => {
   return (
     <footer id="footer" className="text-[#3c479e] ">
       <div
-<<<<<<< HEAD
+
         className="flex flex-col gap-4 text-center py-5 text-gray-400 text-sm md:grid md:grid-rows-3 md:grid-cols-4 md:grid-flow-col md:gap-4 "
-=======
-        className="grid grid-rows-3 grid-cols-4 grid-flow-col gap-4
-    text-center py-5 text-gray-400  text-sm "
-<<<<<<< HEAD
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
-=======
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
+
+  
+
       >
-        <span className={styles.parFooter}>Kontakt</span>
+        <span className={`${styles.parFooter}`}>Kontakt</span>
 
         <a href="mailto:info@detailersgarage.eu">info@detailersgarage.eu</a>
         <a href="tel:+420111222333">+420 111 222 333</a>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <span className={styles.parFooter}>Pobočky</span>
+        <span className={`pt-5 ${styles.parFooter}`}>Pobočky</span>
         <a target="_blank" href="https://www.google.com/maps?q=Čištění+interiéru+auta+-+Steam+Wash+Technology+s.r.o.&client=opera&hs=ZUx&sxsrf=APwXEdczbkk1tU7KlJY8m0x8OuZsi-bo5g:1682093298748&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQ6CggAEEcQ1gQQsANKBAhBGABQ3AFY3AFg6wJoAXABeACAAUyIAUySAQExmAEAoAECoAEByAEIwAEB&um=1&ie=UTF-8&sa=X&ved=2ahUKEwimxvX8rbv-AhXRQ_EDHZGnAd4Q_AUoAnoECAIQBA">U Trati 886/52, 100 00 Strašnice</a>
         <a target="_blank" href="https://www.google.com/maps/place/UMYEM+-+Detailing+Brno/@49.202928,16.6244614,17z/data=!3m1!4b1!4m6!3m5!1s0x471295b27771d827:0x577316dfe15d8c81!8m2!3d49.202928!4d16.6266501!16s%2Fg%2F11c5b4scdm">Vranovská 53/2, 614 00 Brno-sever-Zábrdovice</a>
-=======
-        <span className={styles.parFooter}>Navigace</span>
-        <p>Nazev</p>
-        <p>Nazev</p>
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
-=======
-        <span className={styles.parFooter}>Navigace</span>
-        <p>Nazev</p>
-        <p>Nazev</p>
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
-        <span className={styles.parFooter}>Užitečné odkazy</span>
+
+        
+        <span className={`pt-5 ${styles.parFooter}`}>Užitečné odkazy</span>
         <a href="https://www.autofinesse.com/en/academy">Školení</a>
         <a href="https://www.autofinesse.com/en/shop">Produkty</a>
 
-<<<<<<< HEAD
+
         <span className="inline-flex justify-center pt-5">
-=======
-        <span className="inline-flex">
-<<<<<<< HEAD
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
-=======
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
+
+
           <a
             href="https://www.facebook.com/autofinesse"
             target="_blank"
