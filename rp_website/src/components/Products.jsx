@@ -4,7 +4,7 @@ import { autofinesse, gyeon, meguiars, valetpro } from "../assets/products";
 
 function Products() {
   return (
-    <div className="py-2">
+    <div id="produkty" className="py-2">
       <p
         className={`${styles.paragraph} flex justify-center text-center max-w-xs mx-auto`}
       >

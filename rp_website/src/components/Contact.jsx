@@ -12,10 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_kux4cus",
-        "template_v1qiw75",
+        process.env.REACT_APP_EMAILJS_SERVICE_KEY,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_KEY,
         form.current,
-        "lyVQADEUaCxQkc0fD"
+        process.env.REACT_APP_EMAILJS_FORM_KEY
       )
       .then(
         (result) => {
@@ -34,7 +34,7 @@ function Contact() {
     );
   }
   return (
-    <form ref={form} onSubmit={sendEmail} id="kontakt">
+    <form ref={form} onSubmit={sendEmail} id="kontakt" className="pt-16">
       <img src={contactlogo} className={styles.img}></img>
       <div>
         <section className="text-gray-700 body-font relative">

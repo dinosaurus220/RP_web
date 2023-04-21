@@ -1,13 +1,17 @@
-import { close, home, logo, menu} from "../assets";
+
 
 export const navLinks = [
   {
-    id: "domu",
+    id: "",
     title: "Domů",
   },
   {
     id: "sluzby",
     title: "Služby",
+  },
+  {
+    id: "produkty",
+    title: "Produkty",
   },
   {
     id: "recenze",

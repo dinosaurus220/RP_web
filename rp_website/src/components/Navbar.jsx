@@ -14,17 +14,28 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", changeColor);
 
+ 
   return (
     <nav
-      className={`fixed w-full flex py-5 pl-16 justify-between items-center ${
+      className={`z-50 fixed w-full flex py-5 pl-16 justify-between items-center ${
+<<<<<<< HEAD
+<<<<<<< HEAD
         color ? "bg-[#0b0b0c] transition ease-in delay-100" : "bg-transparent"
+=======
+        color ? "bg-[#171718] transition ease-in delay-100" : "bg-transparent"
+>>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
+=======
+        color ? "bg-[#171718] transition ease-in delay-100" : "bg-transparent"
+>>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
       }`}
     >
-      <img
-        src={logo}
-        alt="Detailer's Garage"
-        className="z-10 w-[200px] h[60px]"
-      />
+      <a className="z-10  " href="#">
+        <img
+          src={logo}
+          alt="Detailer's Garage"
+          className="z-10 w-[200px] h[60px]"
+        />
+      </a>
 
       {/* Hide the desktop navigation links on small screens */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -75,11 +86,11 @@ const Navbar = () => {
             toggle ? "flex" : "hidden"
           } fixed top-0 left-0 w-full h-full  bg-black bg-gradient-to-b from-[#151517] via-[#0b0b0c] to-[#151517]`}
         >
-          <ul className=" list-none flex flex-col justify-center items-center h-full ">
+          <ul className="list-none flex flex-col justify-center items-center h-full">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`mx-[150px] pt-8 font-mono font-normal cursor-pointer text-[30px] ${
+                className={`mx-[150px] pt-8 cursor-pointer text-[30px] ${
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 } text-white`}
               >

@@ -1,6 +1,4 @@
 import styles from "./style";
-import { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { products } from "./assets";
 import {
   Navbar,
@@ -16,11 +14,15 @@ import {
 
 const App = () => {
   return (
+<<<<<<< HEAD
+    <div>
+=======
     <Router>
-      <div className="w-full overflow-hidden align-center">
+>>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
+      <div className="w-full overflow-hidden align-center scroll-mt-[60px]">
         <div className="bg-home ">
           <div>
-            <div className={`${styles.boxWidth} z-10`}>
+            <div className={`${styles.boxWidth} z-20`}>
               <Navbar />
             </div>
           </div>
@@ -28,7 +30,7 @@ const App = () => {
           <div
             className={`pt-10 w-full overflow-hidden align-center ${styles.flexStart}`}
           >
-            <div className={`h-screen ${styles.boxWidth}`}>
+            <div className={`h-screen ${styles.boxWidth} `}>
               <Home />
             </div>
           </div>
@@ -44,7 +46,7 @@ const App = () => {
 
           <Products />
           <div id="google-reviews"></div>
-          <Reviews />
+          <Reviews className="-z-50"/>
           <Contact />
         </div>
       </div>
@@ -52,7 +54,7 @@ const App = () => {
       <div className="w-full overflow-hidden align-center">
         <Footer />
       </div>
-    </Router>
+    </div>
   );
 };
 export default App;
