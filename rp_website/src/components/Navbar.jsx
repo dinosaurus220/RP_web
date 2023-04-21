@@ -18,15 +18,7 @@ const Navbar = () => {
   return (
     <nav
       className={`z-50 fixed w-full flex py-5 pl-16 justify-between items-center ${
-<<<<<<< HEAD
-<<<<<<< HEAD
-        color ? "bg-[#0b0b0c] transition ease-in delay-100" : "bg-transparent"
-=======
         color ? "bg-[#171718] transition ease-in delay-100" : "bg-transparent"
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
-=======
-        color ? "bg-[#171718] transition ease-in delay-100" : "bg-transparent"
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
       }`}
     >
       <a className="z-10  " href="#">

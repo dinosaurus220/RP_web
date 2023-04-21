@@ -14,11 +14,7 @@ import {
 
 const App = () => {
   return (
-<<<<<<< HEAD
     <div>
-=======
-    <Router>
->>>>>>> c4065d0d0aa3cbe1a2bd4dd1302ef6d1be85a5fa
       <div className="w-full overflow-hidden align-center scroll-mt-[60px]">
         <div className="bg-home ">
           <div>
