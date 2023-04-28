@@ -2,5 +2,5 @@
 Ročníková práce
 
 
-npm i
+npm i <br />
 npm run preview
